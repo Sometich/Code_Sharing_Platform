@@ -10,8 +10,8 @@ Returns JSON:
 {
   "code": "CODE SNIPPET",
   "date": "THE DATE IT WAS POSTED",
-  "time": 0, // Time left to view the snippet (0 - unlimited)
-  "views": 0 // Number of views left for the snippet (0 - unlimited)
+  "time": 0, // Time left to view the snippet
+  "views": 0 // Number of views left for the snippet
 }
 ```
 
@@ -24,15 +24,15 @@ Returns JSON array:
   {
     "code": "CODE SNIPPET 10",
     "date": "THE DATE IT WAS POSTED",
-    "time": 0, // Time left to view the snippet (0 - unlimited) (guarenteed to be 0)
-    "views": 0 // Number of views left for the snippet (0 - unlimited) (guarenteed to be 0)
+    "time": 0, // Time left to view the snippet (guarenteed to be 0)
+    "views": 0 // Number of views left for the snippet (guarenteed to be 0)
   },
   ...
   {
     "code": "CODE SNIPPET 1",
     "date": "THE DATE IT WAS POSTED",
-    "time": 0, // Time left to view the snippet (0 - unlimited) (guarenteed to be 0)
-    "views": 0 // Number of views left for the snippet (0 - unlimited) (guarenteed to be 0)
+    "time": 0, // Time left to view the snippet (guarenteed to be 0)
+    "views": 0 // Number of views left for the snippet (guarenteed to be 0)
   }
 ]
 ```
@@ -44,8 +44,8 @@ Consumes JSON:
 ```javascript
 {
   "code": "YOUR CODE SNIPPET", // Must not be null
-  "time": 0, // Time left to view the snippet (0 - unlimited)
-  "views": 0 // Number of views left for the snippet (0 - unlimited)
+  "time": 0, // Time left to view the snippet
+  "views": 0 // Number of views left for the snippet
 }
 ```
 Returns JSON:
